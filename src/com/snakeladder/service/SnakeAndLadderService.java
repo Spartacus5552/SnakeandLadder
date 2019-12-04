@@ -22,7 +22,7 @@ public class SnakeAndLadderService {
     private boolean shouldGameContinueTillLastPlayer; //Optional Rule 3
     private boolean shouldAllowMultipleDiceRollOnSix; //Optional Rule 4
 
-    private static final int DEFAULT_BOARD_SIZE = 100; //The board will have 100 cells numbered from 1 to 100.
+    private static final int DEFAULT_BOARD_SIZE = 50; //The board will have 100 cells numbered from 1 to 100.
     private static final int DEFAULT_NO_OF_DICES = 1;
 
     public SnakeAndLadderService(int boardSize) {
