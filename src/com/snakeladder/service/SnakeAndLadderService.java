@@ -16,7 +16,7 @@ public class SnakeAndLadderService {
 	private SnakeAndLadderBoard snakeAndLadderBoard;
     private int initialNumberOfPlayers;
     private Queue<Player> players; // Comment: Keeping players in game service as they are specific to this game and not the board. Keeping pieces in the board instead.
-    private boolean isGameCompleted;
+    //private boolean isGameCompleted;
 
     private int noOfDices; //Optional Rule 1
     private boolean shouldGameContinueTillLastPlayer; //Optional Rule 3

@@ -4,8 +4,7 @@ public class Ladder {
 
 	private int start;
 	private int end;
-	
-	
+		
 	public Ladder(int start, int end) {
 		super();
 		this.start = start;

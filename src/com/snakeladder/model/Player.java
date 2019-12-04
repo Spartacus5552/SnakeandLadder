@@ -7,6 +7,7 @@ public class Player {
 	private String name;
 	private String id;
 	
+	
 	public Player(String name) {
 		super();
 		this.name = name;

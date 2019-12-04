@@ -22,7 +22,7 @@ public class SnakeAndLadderBoard {
 	}
 	
 	public int getSize() {
-		return size;
+		return size;		
 	}
 	public void setSize(int size) {
 		this.size = size;
