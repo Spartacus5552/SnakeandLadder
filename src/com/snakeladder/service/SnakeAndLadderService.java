@@ -23,7 +23,7 @@ public class SnakeAndLadderService {
     private boolean shouldAllowMultipleDiceRollOnSix; //Optional Rule 4
 
     private static final int DEFAULT_BOARD_SIZE = 100; //The board will have 100 cells numbered from 1 to 100.
-    private static final int DEFAULT_NO_OF_DICES = 1;
+    private static final int DEFAULT_NO_OF_DICES = 2;
 
     public SnakeAndLadderService(int boardSize) {
         this.snakeAndLadderBoard = new SnakeAndLadderBoard(boardSize);  //Optional Rule 2
